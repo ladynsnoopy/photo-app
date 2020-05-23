@@ -15,15 +15,7 @@ body {
     text-align: center;
     margin-top: 23rem;
 }
-/* h1 { 
-    color: #111; 
-    font-family: 'Muli', sans-serif; 
-    font-size: 10rem; 
-    font-weight: bold; 
-    letter-spacing: -1px; 
-    line-height: 1; 
-    text-align: center; 
-} */
+
 h1 { 
     color:black; 
     font-family: 'Raleway',sans-serif; 
@@ -32,31 +24,38 @@ h1 {
     line-height: 1; 
     text-align: center; 
  }
+h1.alternate-header{
+    text-align: left;
+}
 .padding-0{
     padding-right:0;
     padding-left:0;
 }
+.my-header{
+    padding: 3rem 0;
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+    margin-top: 5rem;
+}
+
+.gallery-image{
+    margin: 5rem 0;
+}
+#my-life{
+    margin: 5rem 0;
+
+
+}
+
 @media only screen and (max-width: 750px) {
     .my-name{
         margin-top: 0;
     }
+    .photograph-header{
+        margin-top: 1rem;
+    }
+    .gallery-image{
+        margin: 1rem 0;
+    }
 }
 
-
-
-
-/* .header {
-    display: flex;
-    justify-content: space-evenly;
-}
-.my-image{
-    height: 75rem;
-}
-.container{
-    padding: 0 1.6rem;
-
-}
-.my-name-box{
-    margin: 10rem;
-    text-align: center;
-} */

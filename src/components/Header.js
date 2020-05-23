@@ -6,7 +6,6 @@ import Col from 'react-bootstrap/Col';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Image from 'react-bootstrap/Image';
 const Header = () =>  (
-    <Container fluid={true}>
         <Row xs={12} md={5}>
             <Col className="padding-0" xs={12} md={4}>
                 <Image fluid= {true} className="my-image" src="https://live.staticflickr.com/65535/49922440751_f4f170eaeb_z.jpg"></Image>
@@ -20,7 +19,6 @@ const Header = () =>  (
                 </Jumbotron> 
             </Col>
         </Row>
-    </Container>
 
 );
 

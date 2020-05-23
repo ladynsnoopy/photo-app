@@ -1,8 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Header from './components/Header';
+import Gallery from './components/Gallery';
+import Container from 'react-bootstrap/Container';
+import LifeSection from './components/Life'
 
-// const name = 'Josh Perez';
-// const element = <h1>Hello, {name}</h1>;
+const PhotoApp = () => (
+    <Container fluid={true}>
+        <Header />
+        <Gallery />
+        <LifeSection />
+    </Container>
+);
 
-ReactDOM.render(Header,document.getElementById('app'));
+export default PhotoApp;
