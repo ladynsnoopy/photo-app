@@ -15,7 +15,11 @@ const Life = () =>  (
                         <p>
                         20 Years Old. Burmese. Computer Science student.
                         <br></br> 
-                        I love animals and photography. I enjoy capturing places of worship and nature. Living in SG for > 14 years.
+                        I love animals and photography.
+                        <br></br> 
+                        I enjoy capturing places of worship and nature.
+                        <br></br> 
+                        Living in SG for > 14 years.
                         <br></br> 
                         "Pain is certain but suffering is optional" - Buddha
                         </p>
